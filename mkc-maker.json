@@ -1,0 +1,6 @@
+{
+    "targetWebsite": "https://maker.makecode.com",
+    "include": [
+        "links.json"
+    ]
+}

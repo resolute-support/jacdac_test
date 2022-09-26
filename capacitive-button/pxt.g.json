@@ -1,0 +1,21 @@
+{
+    "name": "jacdac-capacitive-button",
+    "version": "0.0.0",
+    "description": "A configuration service for a capacitive push-button.",
+    "files": [
+        "constants.ts",
+        "client.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit",
+        "arcade",
+        "maker"
+    ],
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac"
+    }
+}

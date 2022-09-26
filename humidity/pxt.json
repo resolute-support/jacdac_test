@@ -1,0 +1,25 @@
+{
+    "name": "jacdac-humidity",
+    "version": "1.8.34",
+    "description": "A sensor measuring humidity of outside environment.",
+    "files": [
+        "constants.ts",
+        "client.g.ts"
+    ],
+    "supportedTargets": [
+        "arcade",
+        "microbit",
+        "maker"
+    ],
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac"
+    },
+    "testFiles": [
+        "test.microbit.ts"
+    ],
+    "testDependencies": {},
+    "fileDependencies": {
+        "test.microbit.ts": "target:microbit"
+    }
+}

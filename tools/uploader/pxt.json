@@ -1,0 +1,24 @@
+{
+    "name": "jacdac-uploader",
+    "version": "1.8.34",
+    "description": "",
+    "dependencies": {
+        "jacdac-iot-s2": "*",
+        "net": "*",
+        "azureiot": "*",
+        "jacdac": "github:microsoft/pxt-jacdac",
+        "jacdac-wifi-server": "github:microsoft/pxt-jacdac/wifi-server",
+        "jacdac-azure-iot-hub-health-server": "github:microsoft/pxt-jacdac/azure-iot-hub-health-server"
+    },
+    "files": [
+        "twins.ts",
+        "uploader.ts",
+        "README.md"
+    ],
+    "supportedTargets": [
+        "maker"
+    ],
+    "preferredEditor": "tsprj",
+    "disableTargetTemplateFiles": true,
+    "binaryonly": true
+}

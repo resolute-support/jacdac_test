@@ -1,0 +1,22 @@
+{
+    "name": "jacdac-reflected-light",
+    "version": "1.8.34",
+    "description": "A sensor that detects light and dark surfaces, commonly used for line following robots.",
+    "files": [
+        "constants.ts",
+        "client.g.ts"
+    ],
+    "testFiles": [],
+    "supportedTargets": [
+        "arcade",
+        "microbit",
+        "maker"
+    ],
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac"
+    },
+    "testDependencies": {
+        "nucleo-f411re": "*"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "targetWebsite": "https://makecode.microbit.org/",
+    "overrides": {
+        "testDependencies": {}
+    },
+    "include": [
+        "links.json"
+    ]
+}

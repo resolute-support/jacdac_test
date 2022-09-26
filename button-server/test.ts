@@ -1,0 +1,5 @@
+console.log(`button host test`)
+const buttonA = new jacdac.ButtonServer(input.buttonA, { instanceName: "A" })
+const buttonB = new jacdac.ButtonServer(input.buttonB, { instanceName: "B" })
+buttonA.start()
+buttonB.start()

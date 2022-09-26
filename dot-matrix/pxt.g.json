@@ -1,0 +1,21 @@
+{
+    "name": "jacdac-dot-matrix",
+    "version": "0.0.0",
+    "description": "A rectangular dot matrix display, made of monochrome LEDs or Braille pins.",
+    "files": [
+        "constants.ts",
+        "client.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit",
+        "arcade",
+        "maker"
+    ],
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac"
+    }
+}

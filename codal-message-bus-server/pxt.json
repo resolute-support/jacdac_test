@@ -1,0 +1,25 @@
+{
+    "name": "jacdac-codal-message-bus-server",
+    "version": "1.8.34",
+    "description": "A service that uses the [CODAL message bus](https://lancaster-university.github.io/microbit-docs/ubit/messageBus/) to send and receive small messages.",
+    "files": [
+        "server.ts"
+    ],
+    "testFiles": [
+        "test.ts",
+        "test.microbit.ts"
+    ],
+    "fileDependencies": {
+        "test.microbit.ts": "target:microbit"
+    },
+    "supportedTargets": [
+        "microbit",
+        "arcade",
+        "maker"
+    ],
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac",
+        "jacdac-codal-message-bus": "github:microsoft/pxt-jacdac/codal-message-bus"
+    }
+}

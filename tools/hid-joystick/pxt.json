@@ -1,0 +1,25 @@
+{
+    "name": "jacdac-hid-joystick",
+    "version": "1.8.34",
+    "description": "HID joystick server",
+    "files": [
+        "config.f4.ts",
+        "config.rp2.ts",
+        "main.ts"
+    ],
+    "supportedTargets": [
+        "maker"
+    ],
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac",
+        "jacdac-hid-joystick-server": "github:microsoft/pxt-jacdac/hid-joystick-server"
+    },
+    "testDependencies": {
+        "jacdac-brain-f4": "*"
+    },
+    "fileDependencies": {
+        "config.f4.ts": "jacdac-brain-f4",
+        "config.rp2.ts": "jacdac-brain-rp2040"
+    }
+}

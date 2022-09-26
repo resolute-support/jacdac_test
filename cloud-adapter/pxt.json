@@ -1,0 +1,21 @@
+{
+    "name": "jacdac-cloud-adapter",
+    "version": "1.8.35",
+    "description": "Supports cloud connections to upload and download data.\nNote that `f64` values following a label are not necessarily aligned.",
+    "files": [
+        "constants.ts",
+        "client.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit",
+        "arcade",
+        "maker"
+    ],
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac"
+    }
+}

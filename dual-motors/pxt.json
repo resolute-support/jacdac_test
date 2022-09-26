@@ -1,0 +1,21 @@
+{
+    "name": "jacdac-dual-motors",
+    "version": "1.8.34",
+    "description": "A synchronized pair of motors.",
+    "files": [
+        "constants.ts",
+        "client.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit",
+        "arcade",
+        "maker"
+    ],
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac"
+    }
+}

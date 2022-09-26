@@ -1,0 +1,25 @@
+{
+    "name": "jacdac-wifi-server",
+    "version": "1.8.34",
+    "description": "MakeCode support for Jacdac WiFi server",
+    "dependencies": {
+        "core": "*",
+        "net": "*",
+        "jacdac": "github:microsoft/pxt-jacdac",
+        "jacdac-servers": "github:microsoft/pxt-jacdac/servers",
+        "jacdac-wifi": "github:microsoft/pxt-jacdac/wifi"
+    },
+    "files": [
+        "server.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "maker"
+    ],
+    "preferredEditor": "tsprj",
+    "testDependencies": {
+        "jacdac-iot-s2": "*"
+    }
+}

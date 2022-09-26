@@ -1,0 +1,25 @@
+{
+    "name": "jacdac-accelerometer",
+    "version": "1.8.34",
+    "description": "MakeCode support for Jacdac Accelerometer service",
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac"
+    },
+    "files": [
+        "constants.ts",
+        "client.g.ts"
+    ],
+    "supportedTargets": [
+        "arcade",
+        "maker",
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "testFiles": [
+        "test.microbit.ts"
+    ],
+    "fileDependencies": {
+        "test.microbit.ts": "target:microbit"
+    }
+}

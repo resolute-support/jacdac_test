@@ -1,0 +1,21 @@
+{
+    "name": "jacdac-arcade-sound",
+    "version": "0.0.0",
+    "description": "A sound playing device.\n\nThis is typically run over an SPI connection, not regular single-wire Jacdac.",
+    "files": [
+        "constants.ts",
+        "client.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit",
+        "arcade",
+        "maker"
+    ],
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac"
+    }
+}

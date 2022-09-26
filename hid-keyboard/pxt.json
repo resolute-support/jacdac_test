@@ -1,0 +1,24 @@
+{
+    "name": "jacdac-hid-keyboard",
+    "version": "1.8.34",
+    "description": "MakeCode support for Jacdac HID Keyboard client",
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac"
+    },
+    "files": [
+        "constants.ts",
+        "client.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "arcade",
+        "maker"
+    ],
+    "preferredEditor": "tsprj",
+    "testDependencies": {
+        "nucleo-f411re": "*"
+    }
+}
